@@ -1,0 +1,39 @@
+Student* searchForStudent(Student* root, int ID)
+{
+    if(!root)
+    {
+        return NULL;
+    }
+    if(root->ID == ID)
+    {
+        return root;
+    }
+    else if(root->ID > ID)
+    {
+        searchForStudent(root->leftStudent, ID);
+    }
+    else
+    {
+        searchForStudent(root->rightStudent, ID);
+    }
+    return root;
+}
+
+Student* addLeaf(Student* root, Student* newNode)
+{
+    if(!root)
+    {
+        return newNode;
+    }
+    
+    if(root->ID > newNode->ID)
+    {
+        addLeaf(root->leftStudent, newNode);
+    }
+    else
+    {
+        addLeaf(root->rightStudent, newNode);
+    }
+    
+    return root;
+}

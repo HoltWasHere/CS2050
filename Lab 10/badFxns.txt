@@ -1,0 +1,30 @@
+Student* addStudentToQ(Student* head, Student* newNode)
+{
+    if(!head)
+    {
+        return newNode;
+    }
+    
+    while(head->rightStudent != NULL)
+    {
+        head = head->rightStudent;
+    }
+    head->rightStudent = newNode;
+    return head;
+}
+
+Student* removeStudentFromQ(Student** head)
+{
+    if((*head)->rightStudent == NULL)
+    {
+        Student* tmp = *head;
+        *head = NULL;
+        return tmp;
+    }
+    
+    Student* tmp = (*head);
+    *head = (*head)->rightStudent;
+    tmp->rightStudent = NULL;
+    return head;
+    
+}
