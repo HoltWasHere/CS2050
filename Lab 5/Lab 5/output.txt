@@ -1,0 +1,16 @@
+Sachin Nair
+3.90 11111111
+Daniel Raymon
+1.00 12312312
+Seth Wiesman
+1.40 33333333
+Abhi Shah
+1.10 44444444
+Joe Guilliams
+1.20 55555555
+Matt Dickenson
+3.40 65498732
+Tyler Nivin
+0.60 98732165
+CJ Voege
+4.10 98765432

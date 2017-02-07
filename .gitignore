@@ -87,3 +87,11 @@ Temporary Items
 
 */nbproject/*
 *.inc
+*.xml
+*.mk
+*.bash
+
+*\build\*
+
+*\nbproject\*
+*.properties
