@@ -1,4 +1,3 @@
-# CS2050
-Algorithm Design and Programming 2 (Fall 2015)
+Algorithm Design and Programming 1 & 2
 
-Prelabs, Labs and Homework for CS2050 Course at University fo Missouri
+My first year of programming!
