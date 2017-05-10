@@ -1,3 +1,3 @@
-Algorithm Design and Programming 1 & 2
+# Algorithm Design and Programming 1 & 2
 
-My first year of programming!
+> My first year of programming!
